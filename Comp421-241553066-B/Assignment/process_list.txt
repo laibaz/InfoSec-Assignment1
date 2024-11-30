@@ -1,0 +1,51 @@
+PID   USER     COMMAND
+1     root     /sbin/init
+2     root     [kthreadd]
+3     root     [rcu_gp]
+4     root     [rcu_par_gp]
+5     root     [kworker/0:0H-kblockd]
+6     root     [mm_percpu_wq]
+7     root     [ksoftirqd/0]
+8     root     [rcu_sched]
+9     root     [migration/0]
+10    root     [kworker/0:1-mm_percpu_wq]
+11    root     [cpuhp/0]
+12    root     [cpuhp/1]
+13    root     [migration/1]
+14    root     [ksoftirqd/1]
+15    root     [kworker/1:0H-kblockd]
+16    root     [kworker/1:1-events]
+17    root     [kworker/u16:0]
+18    root     [kworker/2:0]
+19    root     [kworker/2:1-mm_percpu_wq]
+20    root     [kworker/3:0H-kblockd]
+21    root     [kworker/3:1-events]
+22    root     /usr/lib/systemd/systemd-journald
+23    root     /usr/sbin/sshd -D
+24    user     /usr/bin/python3 script.py
+25    user     /usr/bin/firefox
+26    mysql    /usr/sbin/mysqld
+27    nginx    nginx: master process /usr/sbin/nginx
+28    nginx    nginx: worker process
+29    postgres /usr/lib/postgresql/13/bin/postgres
+30    postgres postgres: checkpointer process
+31    postgres postgres: writer process
+32    postgres postgres: wal writer process
+33    postgres postgres: autovacuum launcher process
+34    postgres postgres: stats collector process
+35    apache   /usr/sbin/apache2 -k start
+36    apache   /usr/sbin/apache2 -k start
+37    user     /usr/bin/vim some_file.txt
+38    user     /usr/bin/python3 -m http.server 8080
+39    root     /usr/sbin/cron
+40    root     /usr/sbin/atd
+41    root     [kworker/4:0H-kblockd]
+42    root     [kworker/4:1-events]
+43    user     /usr/bin/chrome --type=renderer
+44    user     /usr/bin/slack --start
+45    user     /usr/bin/spotify --autostart
+46    root     [watchdog/0]
+47    root     [watchdog/1]
+48    root     [watchdog/2]
+49    root     [watchdog/3]
+50    root     /usr/lib/systemd/systemd-udevd
